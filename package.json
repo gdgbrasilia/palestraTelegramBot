@@ -1,0 +1,22 @@
+{
+  "name": "gdgbrasiliabot",
+  "version": "1.0.0",
+  "description": "Bot do Grupo do Telegram do GDG Brasilia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdgbrasilia/GDGBrasiliaBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdgbrasilia/GDGBrasiliaBot/issues"
+  },
+  "homepage": "https://github.com/gdgbrasilia/GDGBrasiliaBot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.29.0"
+  }
+}

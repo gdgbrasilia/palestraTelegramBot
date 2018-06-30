@@ -1,12 +1,12 @@
 const TelegramBot = require('node-telegram-bot-api');
 
-// Subistitua pelo Token criado pelo @BotFather
+// Substitua pelo Token criado pelo @BotFather
 const token = '441362777:AAEP_9a_IUioMQw2mMVJX9KuidQoJ5RtKiw';
 
-// Crie o ot usando pollin, para receber atualizaçoes
+// Crie o bot usando polling, para receber atualizações
 const bot = new TelegramBot(token, {polling: true});
 
-// Printa o objeto mesg enviado para o BOT
+// Printa o objeto msg enviado para o BOT
 bot.on( 'message', ( msg ) => console.log( 'msg', msg ) )
 
 // Envia uma mensaem quando um novo membro entra no grupo
